@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
 }
 
 h1 {
@@ -32,6 +33,10 @@ h6 {
     font-size: 12px;
 }
 
+.not-bold {
+    font-weight: normal;
+}
+
 /* header  */
 
 .head-main {
@@ -41,3 +46,4 @@ h6 {
     justify-content: space-between;
     padding: 0 250px;
 }
+
