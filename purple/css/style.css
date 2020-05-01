@@ -16,7 +16,7 @@ p {
 /* header  */
 .head-main {
     background-color: #f1f2f2;
-    box-shadow: 0 2px 20px grey;
+    box-shadow: 0 2px 20px 1px grey;
 }
 
 .head-container {
@@ -54,6 +54,17 @@ i {
 }
 
 /* status container  */
+.status-container {
+    width: 900px;
+    height: 36px;
+    background-color: #ed1c24;
+    color: #ffffff;     
+    margin: 45px auto 0 auto;
+}
 
+.status-text p {
+    font-size: 22px;
+    padding: 5px 0 0 40px;
+}
 
 
