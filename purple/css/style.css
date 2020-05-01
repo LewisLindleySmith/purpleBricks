@@ -67,4 +67,14 @@ i {
     padding: 5px 0 0 40px;
 }
 
+/* container two  */
+
+.container-2 {
+    width: 900px;
+    height: 190px;
+    background: red;
+    border: 1px solid #990099;
+    margin: 10px auto 0 auto;
+}
+
 
