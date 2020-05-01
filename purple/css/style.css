@@ -89,8 +89,43 @@ i {
 }
 
 .cont-bottom {
+    width: 820px;
     display: inline-flex;
     margin: 24px 0; 
+}
+
+.cont-b2 {
+    width: 350px;
+    padding: 0 0 0 16px;
+}
+
+.cont-b2 p{
+    font-size: 20px;
+}
+
+.cont-b3 {
+    position: absolute;
+    right: 270px;
+    text-align: right;
+}
+
+.grey-text {
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.viewbtn {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
 }
 
 
