@@ -72,9 +72,25 @@ i {
 .container-2 {
     width: 900px;
     height: 190px;
-    background: red;
     border: 1px solid #990099;
     margin: 10px auto 0 auto;
+    color: #550066;
+}
+
+.inner-cont {
+    width: 820px;
+    margin: 0 auto;
+}
+
+.cont-top {
+    width: 820px;
+    border-bottom: 1px solid #acacac;
+    padding: 15px 0 10px 0;
+}
+
+.cont-bottom {
+    display: inline-flex;
+    margin: 24px 0; 
 }
 
 
