@@ -195,11 +195,30 @@ img {
 /* container 4 and 5 width  */
 
 .container-4-5 {
-     width: 900px;
-    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 200px;
     margin: 30px auto 0 auto;
     color: #550066;
 }
 
 /* container 4  */
+
+.container-4 {
+    width: 434px;
+    height: 200px;
+    border: solid 1px #acacac;
+}
+
+.cont-inner-4 {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.cont-top-4 {
+    width: 310px;
+    border-bottom: 1px solid #acacac;
+    padding: 15px 0 10px 0;   
+}
 
