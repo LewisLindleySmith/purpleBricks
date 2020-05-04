@@ -144,7 +144,7 @@ i {
     width: 900px;
     height: 220px;
     border: 1px solid #acacac;
-    margin: 10px auto 0 auto;
+    margin: 30px auto 0 auto;
     color: #550066;
 }
 
@@ -191,3 +191,15 @@ img {
 .cont-br {
     color: black;
 }
+
+/* container 4 and 5 width  */
+
+.container-4-5 {
+     width: 900px;
+    height: 220px;
+    margin: 30px auto 0 auto;
+    color: #550066;
+}
+
+/* container 4  */
+
