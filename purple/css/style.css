@@ -13,10 +13,19 @@ p {
     margin: 0;
 }
 
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
 /* header  */
 .head-main {
     background-color: #f1f2f2;
     box-shadow: 0 2px 20px 1px grey;
+    width: 100%;
 }
 
 .head-container {
@@ -129,4 +138,20 @@ i {
     height: 25px;
 }
 
+/* container 3  */
 
+.container-3 {
+    width: 900px;
+    height: 220px;
+    border: 1px solid #acacac;
+    margin: 10px auto 0 auto;
+    color: #550066;
+}
+
+.cont-top-3 {
+    position: relative;
+    display: flex;
+    width: 820px;
+    border-bottom: 1px solid #acacac;
+    padding: 15px 0 10px 0;
+}
