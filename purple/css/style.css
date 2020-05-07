@@ -236,6 +236,7 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-weight: 700;
+    padding-bottom: 10px;
 }
 
 .small-text {
@@ -250,15 +251,11 @@ img {
     color: #550066;
 }
 
-.cont-bottom-4 p {
-    padding-bottom: 10px;
-}
-
 .bottom-view {
     height: 50px;
-    background-color: #ed1c24;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* container 5  */
