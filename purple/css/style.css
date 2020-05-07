@@ -136,7 +136,7 @@ i {
     border-radius: 5px;
     border: none;
     height: 25px;
-    margin-top: 5px;
+    padding: 0 10px;
 }
 
 /* container 3  */
@@ -262,5 +262,28 @@ img {
 .container-5 {
     width: 434px;
     height: 200px;
-    border: solid 1px #acacac;
+    border: solid 1px #ed1c24;
+    background-color: #e8e8e8;
+    color: #ed1c24;
+}
+
+.cont-inner-5 {
+    width: 354px;
+    margin: 0 auto;
+}
+
+.cont-top-5 {
+    width: 354px;
+    border-bottom: 1px solid #acacac;
+    padding: 15px 0 10px 0;   
+}
+
+.cont-bottom-5 {
+    width: 354px;
+    padding-top: 15px;
+}
+
+.withdraw {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
 }
