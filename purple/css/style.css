@@ -136,6 +136,7 @@ i {
     border-radius: 5px;
     border: none;
     height: 25px;
+    margin-top: 5px;
 }
 
 /* container 3  */
@@ -159,14 +160,18 @@ i {
 .cont-tr {
     position: absolute;
     right: 0;
+    margin-top: 14px;
 }
 
-.cont-tr p {
+.hidebtn {
+    text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: #990099;
-    padding-top: 15px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
 }
 
 img {
@@ -196,7 +201,7 @@ img {
 
 .container-4-5 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 900px;
     height: 200px;
     margin: 30px auto 0 auto;
@@ -212,13 +217,53 @@ img {
 }
 
 .cont-inner-4 {
-    width: 310px;
+    width: 354px;
     margin: 0 auto;
 }
 
 .cont-top-4 {
-    width: 310px;
+    width: 354px;
     border-bottom: 1px solid #acacac;
     padding: 15px 0 10px 0;   
 }
 
+.cont-bottom-4 {
+    width: 354px;
+    padding-top: 15px;
+}
+
+.money {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.small-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #646464;
+}
+
+.text-arial-reg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #550066;
+}
+
+.cont-bottom-4 p {
+    padding-bottom: 10px;
+}
+
+.bottom-view {
+    height: 50px;
+    background-color: #ed1c24;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* container 5  */
+.container-5 {
+    width: 434px;
+    height: 200px;
+    border: solid 1px #acacac;
+}
