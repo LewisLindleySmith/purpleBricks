@@ -54,7 +54,7 @@ ul li {
     padding-bottom: 0;
 }
 
-i {
+#tm {
     font-size: 10px;
 }
 
@@ -412,3 +412,17 @@ input {
     margin: 16px 0 0 30px;
 }
 
+/* footer  */
+
+footer {
+    background-color: #545353;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.logos, i {
+    font-family: 17px;
+}
