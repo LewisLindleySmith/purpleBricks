@@ -323,7 +323,7 @@ img {
 
 .container-6-3-left {
     width: 500px;
-    margin: auto 15px;
+    margin: auto 30px;
     
 }    
 
@@ -349,7 +349,7 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 700;
-    height: 27px;
+    height: 30px;
     padding: 0 10px;
     cursor: pointer;  
 }
@@ -358,14 +358,19 @@ img {
     width: 820px;
     height: 76px;
     margin: 0 auto;
-    padding: 15px 0 10px 30px;
+    padding: 15px 0 10px 0px;
+}
+
+.container-6-4-inner-top {
+    margin-left: 30px;
 }
 
 .container-6-4-inner {
     width: 820px;
-    background-color: red;
+    height: 50px;
     display: flex;
     position: relative;
+    align-items: center;
 }
 
 .container-6-4-inner p {
@@ -378,6 +383,7 @@ img {
 input {
     width: 240px;
     height: 40px;
+    margin: 0 0 5px 13px;
     padding: 0 0 0 15px;
     border: 1px solid #bbbbbb;
     border-radius: 5px;
@@ -401,3 +407,8 @@ input {
     position: absolute;
     right: 0;
 }
+
+.comments-container {
+    margin: 16px 0 0 30px;
+}
+
