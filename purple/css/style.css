@@ -287,3 +287,53 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
+
+/* container 6  */
+.container-6 {
+    width: 900px;
+    height: 352px;
+    border: 1px solid #990099;
+    margin: 30px auto 0 auto;
+    color: #550066;
+}
+
+.conatiner-6-1 {
+    width: 820px;
+    margin: 0 auto 0 auto;
+    border-bottom: 1px solid #acacac;
+    padding: 15px 0 10px 0;
+}
+
+.container-6-2 {
+    width: 820px;
+    height: 30px;
+    margin: 0 auto 0 auto;
+    border-bottom: 1px solid #acacac;
+}
+
+.container-6-3 {
+    width: 820px;
+    height: 76px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #acacac;
+    padding: 15px 0 10px 0;
+}
+
+.container-6-3-left {
+    width: 500px;
+    margin: auto 15px;
+    
+}    
+
+.container-6-3-left p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #550066;
+}
+
+.container-6-3-right {
+    
+}
