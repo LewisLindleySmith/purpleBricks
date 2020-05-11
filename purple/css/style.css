@@ -335,5 +335,37 @@ img {
 }
 
 .container-6-3-right {
-    
+    position: absolute;
+    right: 0;
+    margin: 14px 25px 0 0;
+}
+
+.negotiate {
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #990099;
+    border-radius: 7px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    height: 27px;
+    padding: 0 10px;
+    cursor: pointer;  
+}
+
+
+
+.submitbtn {
+   text-transform: uppercase;
+    color: #ffffff;
+    background-color: #00aeef;
+    border-radius: 7px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    height: 34px;
+    padding: 0 10px;
+    cursor: pointer; 
 }
