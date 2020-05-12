@@ -50,12 +50,19 @@ ul li {
 }
 
 .small-text {
-    font-size: 15px;
+    font-size: 12px;
     padding-bottom: 0;
+}
+
+.bigger {
+    font-size: 42px; 
 }
 
 #tm {
     font-size: 10px;
+    position: relative;
+    bottom: 22px;
+    right: 1px;
 }
 
 .bold {
@@ -239,7 +246,7 @@ img {
     padding-bottom: 10px;
 }
 
-.small-text {
+.small-text-2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     color: #646464;
