@@ -185,7 +185,11 @@ img {
     padding-bottom: 3px;
 }
 
-.cont-bottom-3 {
+.active, .hidebtn:hover {
+    color: #990099;
+}
+
+.content {
     position: relative;
     width: 820px;
     height: 160px;
