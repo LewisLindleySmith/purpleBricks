@@ -1,14 +1,11 @@
-var coll = document.getElementsByClassName("hidebtn");
-var i;
+// Click event
+//
+var hideBtn = document.getElementById("hideBtn");
+var buyerDetails = document.getElementById("buyerDetails");
 
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    });
-}
+hideBtn.addEventListener("click", function () {
+  buyerDetails.classList.toggle("active");
+
+  // Text change
+  // Toggle btn class "open"
+});
