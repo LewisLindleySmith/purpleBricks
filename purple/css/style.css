@@ -180,6 +180,10 @@ img {
   padding-bottom: 3px;
 }
 
+.rotated {
+  transform: rotate(180deg);
+}
+
 .buyer-details {
   width: 820px;
   height: 0;
