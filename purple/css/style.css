@@ -166,11 +166,12 @@ p {
   padding: 20px;
   width: 20%;
   text-align: left;
+  border-radius: 7px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
 }
 
 .view-modal-header {
-  width: 200px;
+  width: 264px;
   margin: 0 auto;
   border-bottom: 1px solid #acacac;
 }
@@ -472,10 +473,18 @@ input {
   margin: 20% auto;
   padding: 20px;
   width: 50%;
+  border-radius: 7px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
 }
+
+.modal-header {
+  width: 658px;
+  margin: 0 auto 20px 0;
+}
+
 .input-comment-modal {
   width: 80%;
+  margin: 0;
 }
 
 .closeBtn {
