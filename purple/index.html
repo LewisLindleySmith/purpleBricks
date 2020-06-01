@@ -167,7 +167,22 @@
         </div>
 
         <div class="comments-container">
-          <button class="negotiate">add comments</button>
+          <button class="negotiate" id="modalBtn">add comments</button>
+
+          <div id="commentsModal" class="modal">
+            <div class="modal-content">
+              <span class="closeBtn">&times;</span>
+              <div class="modal-header">
+                <p>add comments</p>
+              </div>
+              <input
+                class="input-comment-modal"
+                type="text"
+                id="inputCommentModal"
+                name="inputCommentModal"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
