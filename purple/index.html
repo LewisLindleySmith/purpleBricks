@@ -17,8 +17,8 @@
         <div class="head-left">
           <p class="small-text">welcome to the</p>
           <p>
-            <span class="bigger">eZie</span
-            ><i id="tm" class="far fa-registered"></i>system
+            <span class="bigger">eZie</span>
+            <i id="tm" class="far fa-registered"></i>system
           </p>
         </div>
 
@@ -55,7 +55,26 @@
           <div class="cont-b3">
             <p class="grey-text">Asking price:</p>
             <p><strong>£189,950</strong></p>
-            <button class="viewbtn">view extras included</button>
+            <button id="viewBtn" class="viewbtn">view extras included</button>
+
+            <!-- modal window for view extras-->
+            <div id="viewModal" class="view-modal">
+              <div class="view-modal-content">
+                <span class="closeBtn">&times;</span>
+                <div class="view-modal-header">
+                  <p>Extras Included</p>
+                </div>
+                <div>
+                  <ul>
+                    <li>Butler</li>
+                    <li>Garden</li>
+                    <li>Neighbours</li>
+                    <li>Home and Away</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end -->
           </div>
         </div>
       </div>
@@ -173,7 +192,7 @@
             <div class="modal-content">
               <span class="closeBtn">&times;</span>
               <div class="modal-header">
-                <p>add comments</p>
+                <p>Add comments</p>
               </div>
               <input
                 class="input-comment-modal"

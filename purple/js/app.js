@@ -19,13 +19,40 @@ hideBtn.addEventListener("click", function () {
   // Toggle btn class "open"
 });
 
+//view extras modal window
+var viewModal = document.getElementById("viewModal");
+var viewModalBtn = document.getElementById("viewBtn");
+var closeBtn = document.getElementsByClassName("closeBtn")[0];
+
+//event listeners
+viewBtn.addEventListener("click", openViewModal);
+closeBtn.addEventListener("click", closeViewModal);
+window.addEventListener("click", clickOutsideView);
+
+// function to open modal
+function openViewModal() {
+  viewModal.style.display = "block";
+}
+
+// function to close modal
+function closeViewModal() {
+  viewModal.style.display = "none";
+}
+
+// function to close modal if outside click
+function clickOutsideView(e) {
+  if (e.target == viewModal) {
+    viewModal.style.display = "none";
+  }
+}
+
 // modal window
 // get modal element
 var modal = document.getElementById("commentsModal");
 // get open modal button
 var modalBtn = document.getElementById("modalBtn");
 // get close modal button
-var closeBtn = document.getElementsByClassName("closeBtn")[0];
+var closeBtn = document.getElementsByClassName("closeBtn")[1];
 
 // Listen for open click
 modalBtn.addEventListener("click", openModal);
