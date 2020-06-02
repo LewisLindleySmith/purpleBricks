@@ -482,7 +482,7 @@ input {
 
 .input-comment-modal {
   width: 80%;
-  margin: 0;
+  margin: 0 10px 0 0;
 }
 
 .closeBtn {
@@ -534,4 +534,8 @@ a {
 
 .logos i {
   color: #bbbabb;
+}
+
+.logos i:hover {
+  color: #00aeef;
 }
