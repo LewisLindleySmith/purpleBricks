@@ -171,7 +171,6 @@ p {
 }
 
 .view-modal-header {
-  width: 264px;
   margin: 0 auto;
   border-bottom: 1px solid #acacac;
 }
@@ -478,7 +477,6 @@ input {
 }
 
 .modal-header {
-  width: 658px;
   margin: 0 auto 20px 0;
 }
 
