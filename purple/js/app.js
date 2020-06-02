@@ -2,17 +2,17 @@
 var hideBtn = document.getElementById("hideBtn");
 var buyerDetails = document.getElementById("buyerDetails");
 var chevronUp = document.getElementById("chevronUp");
-var test = document.getElementById("test");
+var changeText = document.getElementById("changeText");
 
 hideBtn.addEventListener("click", function () {
   buyerDetails.classList.toggle("active");
 
   chevronUp.classList.toggle("rotated");
 
-  if (test.innerHTML === "show") {
-    test.innerHTML = "hide";
+  if (changeText.innerHTML === "show") {
+    changeText.innerHTML = "hide";
   } else {
-    test.innerHTML = "show";
+    changeText.innerHTML = "show";
   }
 
   // Text change
